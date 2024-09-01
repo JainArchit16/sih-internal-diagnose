@@ -49,7 +49,7 @@ ALL_SYMPTOMS = ['itching',
 
 
 # model = pickle.load()
-model = joblib.load('.\model\model.pkl')
+model = joblib.load('./model/model.pkl')
 
 # Initialize the FastAPI app
 app = FastAPI()
